@@ -7,6 +7,7 @@ With an interest towards Computer Vision, I also was fascinated by the idea of p
 ***NOTE: Unfortunately the pose estimation repository from [ildoonet](https://github.com/ildoonet) has been removed, I had to alot of searching for other alternatives which I cannot recall.***
 * [Mark Jay's Pose Estimation Tutorial](https://www.youtube.com/playlist?list=PLX-LrBk6h3wQ17z1axCOAS1QVS1dvTEvR)
 * PyQT5 and PyQTGraph
+* NumPy
 * OpenCV
 
 ## Project In Detail 
@@ -58,7 +59,7 @@ Defined **connections** (found within the pose estimation repo) that would be la
         self.layoutLeft.setRowStretch(4,1)
         self.leftButtons.setLayout(self.layoutLeft)
 ```
-![Left Layout](/demo/UI-left.PNG "Left Layout")
+![Left Layout](https://github.com/BnZel/pose_estimation_gui/blob/master/demo/UI-left.png "Left Layout")
 
 ```python
         # ----------right layout----------
@@ -118,7 +119,7 @@ Defined **connections** (found within the pose estimation repo) that would be la
         self.layoutRightItems.addWidget(self.tableConnections,7,1)
         self.rightItems.setLayout(self.layoutRightItems)
 ```
-![Right Layout](/demo/UI-right.PNG "Right Layout")
+![Right Layout](https://github.com/BnZel/pose_estimation_gui/blob/master/demo/UI-right.png "Right Layout")
 
 ### Upload 
 ```python
@@ -144,7 +145,7 @@ Defined **connections** (found within the pose estimation repo) that would be la
             return self.image_label.setPixmap(QPixmap.fromImage(qimage))  
 ```
 
-### Display
+### Display and Functionality
 
 ```python
     def plotPose(self, filename):
@@ -261,4 +262,16 @@ Dictionary would be cleared as user exits out the program
 
         print(self.save_connections.items())
 ```
-![Keypoints and Connections Table](/demo/Keypoints-and-Connections-Table.PNG "Keypoints and Connections Table")
+![Keypoints and Connections Table](https://github.com/BnZel/pose_estimation_gui/blob/master/demo/Keypoints-and-Connections-Table.PNG "Keypoints and Connections Table")
+
+### Final Layout 
+With all the layouts sorted, the final result looks like this:
+![Display](https://github.com/BnZel/pose_estimation_gui/blob/master/demo/UI.PNG "Display")
+
+### Demo of The UI
+![Demo](https://github.com/BnZel/pose_estimation_gui/blob/master/demo/demo.gif "Demo")
+
+### Conclusion
+* Seems that Python has a lot of accessibility when it comes to Machine Learning and Artifical Intelligence, which in turn makes it convenient to experiment with
+* I had other ideas in mind but breaking it down into easier implementable steps was achievable
+* Overall a great learning experience and a lot of applications pose estimation has to offer (such as robotics)
