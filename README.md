@@ -4,7 +4,7 @@
 With an interest towards Computer Vision, I also was fascinated by the idea of pose estimation and wanted to utilize it into a User Interface
 
 ## Resources
-***NOTE: Unfortunately the pose estimation repository from [ildoonet](https://github.com/ildoonet) has been removed, I had to alot of searching for other alternatives which I cannot recall.***
+***NOTE: Unfortunately the pose estimation repository from [ildoonet](https://github.com/ildoonet) has been removed, I had to do alot of searching for other alternatives which I cannot recall.***
 * [Mark Jay's Pose Estimation Tutorial](https://www.youtube.com/playlist?list=PLX-LrBk6h3wQ17z1axCOAS1QVS1dvTEvR)
 * PyQT5 and PyQTGraph
 * NumPy
